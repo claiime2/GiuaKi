@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "544021840721",
+    "firebase_url": "https://quanlisach-55fea.firebaseio.com",
+    "project_id": "quanlisach-55fea",
+    "storage_bucket": "quanlisach-55fea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544021840721:android:57b2b28a1b3ac72e",
+        "android_client_info": {
+          "package_name": "com.example.user.quanlisach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544021840721-6j4dr15snhtdkkg6tmn3rteuj7j2mi5u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.quanlisach",
+            "certificate_hash": "ea065c8214c6045f2531ee457a08c177f5fde8ab"
+          }
+        },
+        {
+          "client_id": "544021840721-or7qs03l34tkq8r0j9fg85uk5anpks1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmkujDTI04-dnfi76hA9rQWtIA9925iN8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544021840721-or7qs03l34tkq8r0j9fg85uk5anpks1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
