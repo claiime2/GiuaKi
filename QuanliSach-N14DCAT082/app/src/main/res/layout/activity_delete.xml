@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:weightSum="5"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar_nav"
+                app:title="Currency"
+                android:background="@color/colorPrimaryDark"
+                app:titleTextColor="#ffff"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+            </android.support.v7.widget.Toolbar>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="4"
+                android:weightSum="10"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+                    android:orientation="horizontal"
+                    android:background="#cbe6ca"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="match_parent"
+
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="3"
+                        android:hint="here search"
+                        android:layout_marginLeft="10dp"
+                        android:drawableRight="@drawable/ic_search_black_24dp"
+                        android:background="#cbe6ca"
+                        android:layout_height="45dp" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#3333"/>
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_weight="9"
+                    android:id="@+id/listview"
+                    android:layout_height="match_parent">
+
+                </ListView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete_white_24dp"
+        android:backgroundTint="#20c228"
+        android:layout_gravity="bottom|end"
+        android:id="@+id/btn_delete"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="10dp"/>
+
+</android.support.design.widget.CoordinatorLayout>

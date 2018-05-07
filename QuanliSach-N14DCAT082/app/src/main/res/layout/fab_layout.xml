@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_add"
+        android:src="@drawable/ic_add_circle_outline_white_24dp"
+        android:backgroundTint="#35abc2"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="89dp"
+        android:layout_marginRight="40dp"
+
+        android:visibility="invisible"/>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete_white_24dp"
+        android:backgroundTint="#e23917"
+        android:visibility="invisible"
+        android:layout_gravity="bottom|end"
+        android:id="@+id/btn_delete"
+        android:layout_marginBottom="35dp"
+        android:layout_marginRight="80dp"/>
+</FrameLayout>
