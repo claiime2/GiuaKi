@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">QuanliSach</string>
-    <!-- Dialog Names -->
-    <string name="dialog_select_photo">SelectPhoto</string>
-</resources>
